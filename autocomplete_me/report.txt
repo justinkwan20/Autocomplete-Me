@@ -1,0 +1,62 @@
+Justin Kwan
+CS210
+Autocomplete Me Project
+
+1. Hours to complete the project: 20 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Autocomplete Term):
+        I approached this problem by looking at the checklist first to see if
+   it could provide me any ideas. I went to see Kyler so that he can assist 
+   me in developing Term class. I understood that the first constructor that
+   did not take in any weight would use the second constructor by passing it 
+   it 0 as its weight and using this keyword. I also learned that using the
+   compareTo allowed me to compare the queries between each other. The 
+   checklist allowed me to further grasp the concept of term as it guided me
+   through. I found that PrefixOrder.compare on the checklist was a bit
+   confusing once I read it since there was so much specific details inside,
+   but once Kyler explain it was understandable.
+
+   Problem 2 (Binary Search Deluxe):
+        I found this problem was the easiest of the the three problems. The
+   reason why I found this problem the easiest since I found Binary Search
+   in the analysis of algorithms slides. I copied it and examined it. I
+   also looked at the trace to carefully follow along. Kyler also showed how 
+   it worked on the blackboard. I learned that we are moving the last and 
+   first positions mostly. I learned that we need to have a comparator to 
+   compare to see if we were getting the the first index of or last index
+   of the key. I learned that its important to compare to 0 because 0 is
+   a safe number to check between the negative numbers and positive numbers.
+   Lastly I learned that its important to initialize index at -1 since if 
+   the key did not exist we were suppose to return -1. 
+
+   Problem 3 (Autocomplete):
+        I approached this problem by going to Kyler. Kyler guided through
+   this problem. He told me what a defensive copy was and how to create it.
+   I learned that a defensive copy is like an exact copy. It’s important
+   not in modify the original copy. Since that would effect our data. I 
+   also used the checklist to follow along making sure that I did not miss
+   anything. He explained how binary search is used within autocomplete.
+   It’s important to get all the first index of the term’s in order to 
+   make sure that you get every term from the start of sorted array.
+   It’s also important to sort by reverse weight order so that the more 
+   common searched terms appear at the top. 
+   
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+   Kyler              SI instructor  Guided me through and helped me
+                                   understand each problem and 
+                                   demonstrate it up on the board.
+   
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I liked using the GUI. Some parts of the Checklist are a bit vague.
+   I learned how to use a comparator.
